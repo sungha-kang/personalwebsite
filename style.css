@@ -120,14 +120,17 @@ ul li{
     }
 
     .sidebar {
-        position: static; /* Remove fixed position */
+        position: fixed; /* Remove fixed position */
         width: 100%; /* Occupy full width */
-        height: auto; /* Allow content to determine height */
+        height: 60px; /* Allow content to determine height */
+        z-index: 9999;
+        background-color: #ffffff;
     }
 
     .sidebar h1{
         display: none;
     }
+    
     .sidebar h2,
     .sidebar ul {
         text-align: center; /* Center text for mobile */
@@ -157,6 +160,7 @@ ul li{
         margin: 0 auto;
         font-size: 0.9em;
         margin-right: 0;
+        padding-top: 60px;
     }
 
     .container {
