@@ -202,13 +202,23 @@ ul li{
         border: none; /* Remove borders in mobile view */
     }
 
-    .footerBottom,
-    .footerContact{
-        text-align: center; /* Center the text for smaller screens */
-        left: 0; /* Reset left position */
-        width: 100%; /* Reset width */
-        margin: 0; /* Reset margin */
-        position: fixed; /* Position fixed for smaller screens */
-    }	
+    .footerBottom{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        color: #000;
+        font-size: 0.9em;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .footerContact {
+        padding: 0;
+        margin: 0;
+        position: fixed;
+        text-align: center;
+        color: #000;
+        font-size: 0.9em;
+    }
 
 }
