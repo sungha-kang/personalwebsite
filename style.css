@@ -195,10 +195,20 @@ ul li{
         border: none; /* Remove borders in mobile view */
         padding-bottom: 5px;
     }
+	
 
     .content-column {
         width: 100%;
         border: none; /* Remove borders in mobile view */
     }
+
+    .footerBottom,
+    .footerContact{
+        text-align: center; /* Center the text for smaller screens */
+        left: 0; /* Reset left position */
+        width: 100%; /* Reset width */
+        margin: 0; /* Reset margin */
+        position: fixed; /* Position fixed for smaller screens */
+    }	
 
 }
